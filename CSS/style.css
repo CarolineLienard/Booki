@@ -223,15 +223,8 @@ a {
 
 /** Header responsive **/
 
+/** Ipad responsive **/
 @media screen and (max-width: 992px) {
-    
-    body {
-    }
-
-
-
-
-
 
 }
 
@@ -265,9 +258,7 @@ a {
         height: 80%;
         border-bottom: 3px solid #F2F2F2;
         border-top: none;
-
-
-    }
+    } 
 
     .menuTitleHost:hover {
         color: #0065FC;
@@ -339,5 +330,85 @@ a {
     .infoIcon {
         margin: 0px 10px 0px 0px;
     }
-    
 }
+
+/** Section **/
+
+.hostSection {
+    display: flex;
+    width: 100%;
+}
+
+.marseilleHost {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 60%;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .hostTitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.marseilleCardContainer {
+    width: 35%;
+}
+
+.hostMarseilleCard {
+    background-color: white;
+    margin: 5px 5px 5px 5px;
+    padding: 6px 6px 6px 6px;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 3px 3px 25px #d8d8d8;
+}
+
+.marseilleCardImage {
+    background-image: url(/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+    width: 100%;
+    height: 120px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.marseilleCardTitleSection {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+}
+
+.marseilleCardTitle {
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.marseilleCardPrice {
+    margin: 8px 0px 8px 0px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.hostShowMore {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+  .popularHost {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 40%;
+    margin: 5px 5px 5px 5px;
+    padding: 15px 15px 15px 15px;
+  }
+
+  .popularTitleSection {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .popularTitle {
+      font-size: 18px;
+      font-weight: 600;
+  }
