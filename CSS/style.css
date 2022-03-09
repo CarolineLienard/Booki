@@ -1,5 +1,4 @@
-/** bleu #0065FC bleu clair #DEEBFF gris #F2F2F2 **/
-
+/** Général **/
 * {
     font-family: "Raleway";
 }
@@ -18,6 +17,7 @@ a {
     font-weight: 300;
 }
 
+/** Header **/
 .menuSection {
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ a {
 
 .searchBar {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #searchInput {
@@ -119,6 +119,10 @@ a {
     cursor: pointer;
 }
 
+#searchButtonMobile {
+    display: none;
+}
+
 #locationIcon {
     border: 1px solid transparent;
     border-radius: 16px 0px 0px 16px;
@@ -133,6 +137,7 @@ a {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .filterTitle {
@@ -152,7 +157,7 @@ a {
     background-color: transparent;
     border-radius: 40px;
     padding-right: 19px;
-    margin: 0px 0px 5px 25px;
+    margin: 10px 0px 5px 25px;
     cursor: pointer;
 }
 
@@ -214,4 +219,125 @@ a {
 
 #i-icon {
     color: #0065FC;
+}
+
+/** Header responsive **/
+
+@media screen and (max-width: 992px) {
+    
+    body {
+    }
+
+
+
+
+
+
+}
+
+/** Mobile responsive **/
+@media screen and (max-width: 768px) {
+    
+    body {
+        margin: 5% 5% 5% 5%;
+    }
+
+    .menuSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuContainer {
+        width: 100%;
+    }
+
+    .menuTitleHost {
+        margin: 0;
+        width: 50%;
+        height: 80%;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+    }
+
+    .menuTitleActivities {
+        margin: 0;
+        width: 50%;
+        height: 80%;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+
+
+    }
+
+    .menuTitleHost:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+    
+    .menuTitleActivities:hover {
+        color: #0065FC;
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+
+    .logoContainer {
+        margin-bottom: 30px;
+    }
+
+    .titleContainer {
+        margin: 30px 0px 30px 0px;
+        text-align: left;
+        flex-wrap: wrap;
+    }
+
+    .filterSection {
+        margin: 0px 25px 25px 0px;
+    }
+
+    .filterTitle {
+        width: 100%;
+        margin: 8px 5px 12px 5px;
+    }
+
+    .filterContainer {
+        margin: 5px 15px 8px 0px;
+    }
+
+    .filterCategory {
+        font-size: 16px;
+    }
+
+    .searchTitle {
+        margin-bottom: 12px;
+        font-size: 21px;
+    }
+    
+    .searchBar {
+        margin-bottom: 28px;
+    }
+
+    #searchButton {
+        display: none;
+    }
+
+    #searchButtonMobile {
+        display: initial;
+        border: none;
+        border-radius: 16px 16px 16px 16px;
+        background-color: #0065FC;
+        height: 51px;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        width: 50px;
+        margin-left: -25px;
+        font-size: 17.5px;
+        cursor: pointer;
+    }
+
+    .infoIcon {
+        margin: 0px 10px 0px 0px;
+    }
+    
 }
