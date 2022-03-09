@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,7 +37,7 @@
         </div>
         
         <div class="searchBar">
-            <form id="searchForm" role="search">
+            <form id="searchForm" action="post" role="search">
                 <button id="locationIcon"><i class="fa-solid fa-location-dot fa-lg"></i></button>
                 <input type="search" autocomplete="off" id="searchInput"
                  placeholder="Marseille, France"
@@ -47,15 +47,29 @@
             </form>
 
         </div>
-        <div class="filterContainer">
-            <div class="filterTitle">Filtre</div>
-            <div class="filterButton">Economique</div>
-            <div class="filterButton">Familial</div>
-            <div class="filterButton">Romantique</div>
-            <div class="filterButton">Animaux</div>
+        <div class="filterSection">
+            <div class="filterTitle">Filtres</div>
+            
+           <div class="filterContainer">
+               <div class="roundIcon"><i class="fa-solid fa-money-bill-wave fa-lg" id="filter-icon"></i></div>
+               <div class="filterCategory">Économique</div>
+            </div>
+            <div class="filterContainer">
+                <div class="roundIcon"><i class="fa-solid fa-child fa-lg" id="filter-icon"></i></div>
+                <div class="filterCategory">Familial</div>
+             </div>
+             <div class="filterContainer">
+                <div class="roundIcon"><i class="fa-solid fa-heart fa-lg" id="filter-icon"></i></div>
+                <div class="filterCategory">Romantique</div>
+             </div>
+             <div class="filterContainer">
+                <div class="roundIcon"><i class="fa-solid fa-dog fa-lg" id="filter-icon"></i></div>
+                <div class="filterCategory">Animaux autorisés</div>
+             </div>  
         </div>
+        
         <div class="infoContainer">
-            <div class="infoIcon"></div>
+            <div class="infoIcon"><i class="fa-solid fa-info fa-xs" id="i-icon"></i></div>
             <div class="infoTitle">Plus de 500 logements sont disponibles dans cette ville</div>
         </div>
     </div>

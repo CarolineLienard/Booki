@@ -83,7 +83,7 @@ a {
 
 .searchBar {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 #searchInput {
@@ -115,6 +115,7 @@ a {
     width: 134px;
     margin-left: -25px;
     font-size: 17.5px;
+    cursor: pointer;
 }
 
 #locationIcon {
@@ -127,3 +128,82 @@ a {
     margin-right: -5px;
 }
 
+.filterSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filterTitle {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 9px;
+    margin-left: 9px;
+}
+
+
+.filterContainer {
+    display: flex;
+    position: relative;
+    width : auto;
+    height: 45px;
+    border: 2px solid #dbdbdb;
+    background-color: transparent;
+    border-radius: 40px;
+    padding-right: 19px;
+    margin: 0px 0px 5px 25px;
+}
+
+.roundIcon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #DEEBFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+
+}
+
+#filter-icon {
+    color: #0065FC;
+}
+
+.filterCategory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.infoContainer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.infoIcon {
+    border: 1px solid #dbdbdb;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.infoTitle {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#i-icon {
+    color: #0065FC;
+}
