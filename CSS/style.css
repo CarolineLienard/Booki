@@ -347,13 +347,15 @@ a {
     padding: 15px 15px 15px 15px;
   }
 
-  .hostTitle {
+  .marseilleHostTitle {
     font-size: 18px;
     font-weight: 600;
 }
 
 .marseilleCardContainer {
-    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .hostMarseilleCard {
@@ -361,12 +363,11 @@ a {
     margin: 5px 5px 5px 5px;
     padding: 6px 6px 6px 6px;
     border-radius: 20px;
-    width: 100%;
+    width: 30%;
     box-shadow: 3px 3px 25px #d8d8d8;
 }
 
 .marseilleCardImage {
-    background-image: url(/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     width: 100%;
     height: 120px;
     background-position: center;
