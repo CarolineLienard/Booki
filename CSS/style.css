@@ -440,19 +440,23 @@ a {
     padding: 5px 5px 5px 5px;
     border-radius: 20px;
     width: 90%;
+    height: 135px;
     box-shadow: 3px 3px 14px #d8d8d8;
   }
 
   .popularCardImage {
-    width: 35%;
-    height: 135px;
+    width: 39%;
+    height: 100%;
     background-position: center;
     background-size: cover;
     border-radius: 15px 0px 0px 15px;
   }
 
  .popularCardTitleSection {
-    padding: 10px 10px 2px 20px;
+    /*padding: 10px 10px 2px 20px;*/
+    padding: 5%;
+    position: relative;
+    width: 200px;
   }
 
   .popularCardTitle {
@@ -467,9 +471,105 @@ a {
   }
 
 .popularCardStar {
-    margin-top: 50px;
+    position:absolute;
+    bottom: 12px;
 }
 
   #popularStarIcon {
     margin: 0px -3px 0px 0px;
   }
+
+  #lastCardResponsive {
+      display: none;
+  }
+
+  /** Responsive Section 1
+
+  /** Responsive ipad **/
+  @media screen and (max-width: 1340px) {
+
+    .hostMarseilleCard {
+        width: 27%;
+    }
+  }
+
+
+  @media screen and (max-width: 1240px) {
+
+    body {
+        margin: 0% 4% 0% 4%;
+    }
+
+    .hostSection {
+        flex-direction: column-reverse;
+    }
+    
+    .popularHost {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .marseilleHost {
+        padding: 0;
+        width: 100%;
+    }
+
+    .marseilleHostTitle {
+        margin: 45px 35px 15px 35px;
+        padding: 0px 22px 0px 22px;
+    }
+
+    .hostShowMore {
+        margin: 30px 30px 40px 60px;
+    }
+
+    .popularContainer {
+        margin-bottom: 30px;
+    }
+
+    .popularCard {
+        width: 41%;
+        margin: 15px 15px 15px 15px;
+    }
+
+    .popularTitleSection {
+        margin: 45px 35px 15px 35px;
+        padding: 0px 22px 0px 22px;
+    }
+
+    #lastCardResponsive {
+        display: inherit;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .hostMarseilleCard {
+        width: 80%;
+    }
+
+    .popularCard {
+        width: 80%;
+        margin: 7px 15px 7px 15px;
+    }
+
+    #lastCardResponsive {
+        display: none;
+    }
+
+    .popularTitleSection {
+        margin-left: 24px;
+        margin-bottom: 24px;
+
+    }
+
+    .marseilleHostTitle {
+        margin-left: 24px;
+        margin-bottom: 24px;
+    }
+
+    .hostMarseilleCard {
+        margin: 7px 15px 7px 15px;
+    }
+}
