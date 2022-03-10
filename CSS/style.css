@@ -343,27 +343,28 @@ a {
 .marseilleHost {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 87%;
-    margin: 0px 40px 0px 0px;
-    padding: 23px 0px 33px 33px;
+    width: 97%;
+    margin: 5px 36px 5px 5px;
+    padding: 17px;
   }
 
   .marseilleHostTitle {
     font-size: 22px;
     font-weight: 600;
-    margin: 18px 18px 18px 8px;
+    margin: 25px 18px 10px 20px;
 }
 
 .marseilleCardContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
 }
 
 .hostMarseilleCard {
     background-color: white;
-    margin: 5px 25px 25px 5px;
-    padding: 5px 5px 1px 5px;
+    margin: 15px 15px 15px 15px;
+    padding: 5px 5px 5px 5px;
     border-radius: 20px;
     width: 28%;
     box-shadow: 3px 3px 14px #d8d8d8;
@@ -398,24 +399,77 @@ a {
 }
 
 .hostShowMore {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
+    margin: 28px;
+    cursor: pointer;
 }
 
   .popularHost {
     background-color: #F2F2F2;
     border-radius: 20px;
-    width: 40%;
-    margin: 0px 0px 0px 0px;
-    padding: 15px 15px 15px 15px;
+    width: 45%;
+    margin: 5px 5px 5px 5px;
+    padding: 17px;
   }
 
   .popularTitleSection {
       display: flex;
       justify-content: space-between;
+      align-items: center;
+      margin: 25px 18px 10px 20px;
   }
 
   .popularTitle {
-      font-size: 18px;
+      font-size: 22px;
       font-weight: 600;
+  }
+
+
+.popularContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  .popularCard {
+    display: flex;
+    background-color: white;
+    margin: 25px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 20px;
+    width: 90%;
+    box-shadow: 3px 3px 14px #d8d8d8;
+  }
+
+  .popularCardImage {
+    width: 35%;
+    height: 135px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+ .popularCardTitleSection {
+    padding: 10px 10px 2px 20px;
+  }
+
+  .popularCardTitle {
+    font-weight: 600;
+    margin-top: 5px;
+  }
+
+  .popularCardPrice {
+    margin: 10px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+.popularCardStar {
+    margin-top: 50px;
+}
+
+  #popularStarIcon {
+    margin: 0px -3px 0px 0px;
   }
