@@ -3,7 +3,7 @@
     font-family: "Raleway";
 }
 
-body {
+header, section {
     margin: 0% 3.5% 0% 3.5%;
 }
 
@@ -373,7 +373,29 @@ a {
       display: none;
   }
 
-  
+  .footer {
+    background-color: #F2F2F2;
+    height: 200px;
+    width: 100%;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+  }
+
+    .footerSection {
+        margin: 50px 50px 50px 50px;
+        width: 35%;
+    }
+
+  .footerTitle {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0px 0px 20px 0px;
+  }
+
+  .footerLink {
+      margin: 15px 0px 15px 0px;
+  }
+
   /** Responsive
 
   /** Responsive ipad **/
@@ -387,7 +409,7 @@ a {
 
   @media screen and (max-width: 1240px) {
 
-    body {
+    header, section {
         margin: 0% 4% 0% 4%;
     }
 
@@ -442,7 +464,7 @@ a {
 /** Mobile responsive **/
 @media screen and (max-width: 768px) {
     
-    body {
+    header, section {
         margin: 5% 5% 5% 5%;
     }
 
