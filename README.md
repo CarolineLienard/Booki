@@ -1,7 +1,7 @@
 # Booki ☀️✈
 # An OpenClassroom Project to learn HTML and CSS
 
-This is a solution to the first project of the web developer course on OpenClassroom (https://openclassrooms.com/fr/). 
+This is my solution to the first project of the OpenClassroom's web developer course (https://openclassrooms.com/fr/). 
 This project introduce the basics of HTLM and CSS through the integration of a very specific design they provide.
 
 ## Overview
@@ -11,7 +11,7 @@ This project introduce the basics of HTLM and CSS through the integration of a v
 Users should be able to:
 
 - Edit the text in the seach bar. The input need to be in a form and the search function musn't work.
-- Click on the whole activities and host cards (not just the title). The links are empty and need to be feel with an #.
+- Click on the whole activities and host cards (not just the title). The links are empty and need to be fill with an #.
 - See an hover effect on the search filters. The filter must not work.
 - Click on "Hébergements" and "Activities", they need to lead to the host section and the activites section.
 
