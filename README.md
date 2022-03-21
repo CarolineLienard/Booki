@@ -44,15 +44,11 @@ You need to :
 
 This was my very first project. I learned how to use HTML and CSS but also how to use Github. This solution made me work on the basics which was appreciable for a newbie like me.
 
-### Continued development
-
-Next project will be focus on more advanced CSS, such as SASS.
 
 ### Useful resources
 
-- Flexbox Froggy (https://flexboxfroggy.com/#fr) 🐸♥️ - A perfect game to be more familiar with flexbox
-- HTML de zéro (https://www.youtube.com/watch?v=qsbkZ7gIKnc&t=0s&ab_channel=FromScratch-D%C3%A9veloppementWeb)
-  An amazing french tutorial for HTML and CSS, really complete.
+- Flexbox Froggy 🐸 (https://flexboxfroggy.com/#fr) - A perfect game to be more familiar with flexbox
+- HTML de zéro (https://www.youtube.com/watch?v=qsbkZ7gIKnc&t=0s&ab_channel=FromScratch-D%C3%A9veloppementWeb) - An amazing french tutorial for HTML and CSS, really complete.
 
 
 ## Author
