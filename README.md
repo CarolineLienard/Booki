@@ -3,20 +3,6 @@
 
 This is a solution to the first project of the web developer course on OpenClassroom (https://openclassrooms.com/fr/). This project introduce the basics of HTLM and CSS.
 
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-
-
 ## Overview
 
 ### The challenge
@@ -71,3 +57,5 @@ Next project will be focus on more advanced CSS, such as SASS.
 
 - Caroline Lienard (https://github.com/CarolineLienard)
 - OpenClassroom - (https://openclassrooms.com/fr/)
+
+#### Note: As a student, do your best to create your own solution, you got this ! 👍🏻
