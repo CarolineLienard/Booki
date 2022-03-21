@@ -1,4 +1,4 @@
-# Booki ✈
+# Booki ☀️✈
 # An OpenClassroom Project to learn HTML and CSS
 
 This is a solution to the first project of the web developer course on OpenClassroom (https://openclassrooms.com/fr/). This project introduce the basics of HTLM and CSS.
