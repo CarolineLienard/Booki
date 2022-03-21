@@ -274,6 +274,8 @@ button {
 .marseilleCardTitleSection {
     margin: 5px 5px 5px 5px;
     padding: 1px 5px 0px 8px;
+    display: flex;
+    flex-direction: column;
 }
 
 .marseilleCardTitle {
@@ -300,8 +302,10 @@ button {
 #hostShowMoreButton {
     font-size: 18px;
     font-weight: 600;
+    background: none;
 }
 
+/** Popular Section **/
   .popularHost {
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -350,10 +354,11 @@ button {
   }
 
  .popularCardTitleSection {
-    /*padding: 10px 10px 2px 20px;*/
     padding: 5%;
     position: relative;
     width: 200px;
+    display: flex;
+    flex-direction: column;
   }
 
   .popularCardTitle {
@@ -380,12 +385,33 @@ button {
       display: none;
   }
 
+
+  /** Activities section **/
+
+.activitesSection {
+    margin-top : 60px;
+}
+
+.mainActivitesTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 25px 18px 10px 20px;
+}
+
+.marseilleActivitesContainer {
+    display: flex;
+}
+
+.activitiesMultipleCard {
+    width: 80%;
+}
+
 .activitiesCard {
     background-color: white;
     margin: 15px 15px 15px 15px;
     padding: 0px 0px 5px 0px;
     border-radius: 20px;
-    width: 20%;
+    width: 80%;
     box-shadow: 3px 3px 14px #d8d8d8;
 }
 
@@ -403,28 +429,38 @@ button {
     margin: 20px 10px 15px 15px;
 }
 
+
+/** Footer **/
+
   .footer {
     background-color: #F2F2F2;
     height: 100%;
     width: 100%;
-    margin: 30px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     display: flex;
   }
 
     .footerSection {
-        margin: 50px 50px 50px 50px;
+        margin: 70px 50px 50px 50px;
         width: 35%;
+        display: flex;
+        flex-direction: column;
     }
 
   .footerTitle {
       font-size: 18px;
       font-weight: 600;
-      margin: 0px 0px 20px 0px;
+      margin: 0px 0px 12px 0px;
+      padding: 0;
   }
 
   .footerLink {
-      margin: 15px 0px 15px 0px;
+      margin: 7px 0px 7px 0px;
+      list-style-type: none;
+
   }
+
+
 
   /** Responsive
 
@@ -611,5 +647,9 @@ button {
 
     .hostMarseilleCard {
         margin: 7px 15px 7px 15px;
+    }
+
+    .footer {
+        flex-direction: column;
     }
 }
