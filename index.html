@@ -15,26 +15,27 @@
 
 <body>
 <header>
-    <div class="menuSection">
-        <div class="logoContainer"><img class="logo" src="assets/logo/Booki.png"/></div>
-        
-        <div class="menuContainer">
-            <div class="menuTitleHost"><a href="#" class="hostTitle">Hébergements</a></div>
-            <div class="menuTitleActivities"><a href="#" class="activitiesTitle">Activités</a></div>
+    <div class="headerSection">
+        <div class="logoContainer">
+            <img class="logo" src="assets/logo/Booki.png"/>
         </div>
+        
+        <nav id="navBar">
+            <ul class="navContainer">
+                <li class="navTitle"><a class="navLinks" href="#hostLink">Hébergements</a></li>
+                <li class="navTitle"><a class="navLinks" href="#activitiesLink">Activités</a></li>
+            </ul>
+        </nav>
     </div>
+</header>    
 
-    <div class="searchSection">
+
+<section>
         <div class="titleContainer">
-            <div class="searchTitle">
-                <p>Trouvez votre hébergement pour des vacances de rêve</p>
-            </div>
-            <div class="searchSubTitle">
-                <p>En plein centre ville ou en pleine nature</p>
-            </div>
+                <h1 id="searchTitle">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p id="searchSubTitle">En plein centre ville ou en pleine nature</p>
         </div>
-        
-        <div class="searchBar">
+    
             <form id="searchForm" action="post" role="search">
                 <button id="locationIcon"><i class="fa-solid fa-location-dot fa-lg"></i></button>
                 <input type="search" autocomplete="off" id="searchInput"
@@ -44,47 +45,48 @@
                 <button id="searchButton" type="submit">Rechercher</button>
                 <button id="searchButtonMobile" type="submit"><i id="searchMobileIcon" class="fa-solid fa-magnifying-glass"></i></button>
             </form>
-        </div>
 
         <div class="filterSection">
-            <div class="filterTitle">Filtres</div>  
-           <div class="filterContainer">
-               <div class="roundIcon"><i class="fa-solid fa-money-bill-wave fa-lg" id="filter-icon"></i></div>
-               <div class="filterCategory">Économique</div>
-            </div>
+            <span class="filterTitle">Filtres</span> 
+           
             <div class="filterContainer">
-                <div class="roundIcon"><i class="fa-solid fa-child fa-lg" id="filter-icon"></i></div>
-                <div class="filterCategory">Familial</div>
+               <i class="roundIcon fa-solid fa-money-bill-wave fa-lg" id="roundIcon"></i>
+               <span class="filterCategory">Économique</span>
+            </div>
+
+            <div class="filterContainer">
+                <i class="fa-solid fa-child fa-lg" id="roundIcon"></i>
+                <span class="filterCategory">Familial</span>
              </div>
+
              <div class="filterContainer">
-                <div class="roundIcon"><i class="fa-solid fa-heart fa-lg" id="filter-icon"></i></div>
-                <div class="filterCategory">Romantique</div>
+                <i class="fa-solid fa-heart fa-lg" id="roundIcon"></i>
+                <span class="filterCategory">Romantique</span>
              </div>
+
              <div class="filterContainer">
-                <div class="roundIcon"><i class="fa-solid fa-dog fa-lg" id="filter-icon"></i></div>
-                <div class="filterCategory">Animaux autorisés</div>
-             </div>  
+                <i class="fa-solid fa-dog fa-lg" id="roundIcon"></i>
+                <span class="filterCategory">Animaux autorisés</span>
+             </div>      
         </div>
         
-        <div class="infoContainer">
-            <div class="infoIcon"><i class="fa-solid fa-info fa-xs" id="i-icon"></i></div>
-            <div class="infoTitle">Plus de 500 logements sont disponibles dans cette ville</div>
-        </div>
-    </div>
-</header>
+            <p class="infoTitle"><i class="fa-solid fa-info fa-xs" id="infoIcon"></i>
+                Plus de 500 logements sont disponibles dans cette ville</p>
+</section>    
+
 
 <section>
-    <div class="hostSection">
+    <div class="hostSection" id="hostLink">
         <div class="marseilleHost">
-            <div class="marseilleHostTitle">Hébergements à Marseille</div>
+            <div class="marseilleHostTitle"><span>Hébergements à Marseille</span></div>
             <div class="marseilleCardContainer">
 
 
                 <div class="hostMarseilleCard">
                     <div class="marseilleCardImage" style="background-image: url(/assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg)"></div>
                     <div class="marseilleCardTitleSection">
-                        <div class="marseilleCardTitle">Auberge La Cannebière</div>
-                        <div class="marseilleCardPrice">Nuit à partir de <span style="font-weight: 600;">25€</span></div>
+                        <div class="marseilleCardTitle"><span>Auberge La Cannebière</span></div>
+                        <div class="marseilleCardPrice"><span>Nuit à partir de</span> <span style="font-weight: 600;">25€</span></div>
                         <div class="marseilleCardStar">
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
@@ -98,8 +100,8 @@
                 <div class="hostMarseilleCard">
                     <div class="marseilleCardImage" style="background-image: url(/assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg)"></div>
                     <div class="marseilleCardTitleSection">
-                        <div class="marseilleCardTitle">Hôtel du port</div>
-                        <div class="marseilleCardPrice">Nuit à partir de <span style="font-weight: 600;">52€</span></div>
+                        <div class="marseilleCardTitle"><span>Hôtel du port</span></div>
+                        <div class="marseilleCardPrice"><span>Nuit à partir de</span> <span style="font-weight: 600;">52€</span></div>
                         <div class="marseilleCardStar">
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
@@ -113,8 +115,8 @@
                 <div class="hostMarseilleCard">
                     <div class="marseilleCardImage" style="background-image: url(/assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg)"></div>
                     <div class="marseilleCardTitleSection">
-                        <div class="marseilleCardTitle">Hôtel des mouettes</div>
-                        <div class="marseilleCardPrice">Nuit à partir de <span style="font-weight: 600;">76€</span></div>
+                        <div class="marseilleCardTitle"><span>Hôtel des mouettes</span></div>
+                        <div class="marseilleCardPrice"><span>Nuit à partir de</span> <span style="font-weight: 600;">76€</span></div>
                         <div class="marseilleCardStar">
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
@@ -129,7 +131,7 @@
                     <div class="marseilleCardImage" style="background-image: url(/assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg)"></div>
                     <div class="marseilleCardTitleSection">
                         <div class="marseilleCardTitle">Hôtel de la mer</div>
-                        <div class="marseilleCardPrice">Nuit à partir de <span style="font-weight: 600;">46€</span></div>
+                        <div class="marseilleCardPrice"><span>Nuit à partir de</span> <span style="font-weight: 600;">46€</span></div>
                         <div class="marseilleCardStar">
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
@@ -143,8 +145,8 @@
                 <div class="hostMarseilleCard">
                     <div class="marseilleCardImage" style="background-image: url(/assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg)"></div>
                     <div class="marseilleCardTitleSection">
-                        <div class="marseilleCardTitle">Auberge Le Panier</div>
-                        <div class="marseilleCardPrice">Nuit à partir de <span style="font-weight: 600;">23€</span></div>
+                        <div class="marseilleCardTitle"><span>Auberge Le Panier</span></div>
+                        <div class="marseilleCardPrice"><span>Nuit à partir de</span> <span style="font-weight: 600;">23€</span></div>
                         <div class="marseilleCardStar">
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
@@ -158,8 +160,8 @@
                 <div class="hostMarseilleCard">
                     <div class="marseilleCardImage" style="background-image: url(/assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg)"></div>
                     <div class="marseilleCardTitleSection">
-                        <div class="marseilleCardTitle">Hôtel chez Amina</div>
-                        <div class="marseilleCardPrice">Nuit à partir de <span style="font-weight: 600;">96€</span></div>
+                        <div class="marseilleCardTitle"><span>Hôtel chez Amina</span></div>
+                        <div class="marseilleCardPrice"><span>Nuit à partir de</span> <span style="font-weight: 600;">96€</span></div>
                         <div class="marseilleCardStar">
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                             <i id="starIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
@@ -171,7 +173,7 @@
                 </div>               
                 
             </div>    
-            <div class="hostShowMore">Afficher plus</div>
+            <div class="hostShowMore"><button id="hostShowMoreButton">Afficher plus</button></div>
         </div>
 
         <div class="popularHost">
@@ -180,8 +182,7 @@
                 <div class="popularIcon"><i class="fa-solid fa-chart-line fa-xl"></i></div>
             </div>
 
-            <div class="popularContainer">
-                
+            <div class="popularContainer">     
                 <div class="popularCard">
                     <div class="popularCardImage" style="background-image: url(/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)"></div>
                     <div class="popularCardTitleSection">
@@ -241,7 +242,7 @@
                             <i id="popularStarIcon" style="color: #0065FC" class="fa-solid fa-star fa-xs"></i>
                         </div>
                     </div>
-                </div>              
+                </div>
 
             </div>
         </div>
@@ -249,15 +250,35 @@
 
 
     <div class="activitesSection">
-        <div class="mainActivitesTitle">Activités à Marseille</div>
-        <div class="marseilleActivites">
-            <div class="marseilleActivitesCard"></div>
+        <div class="mainActivitesTitle" id="activitiesLink">Activités à Marseille</div>
+     
+        <div class="marseilleActivitesContainer">
+
+            
+                            <div class="activitiesCard">
+                                <div class="activitiesCardImage" style="background-image: url(/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)"></div>
+                                    <div class="activitiesCardTitle">Hôtel Le Soleil Du Matin</div>
+                                </div>
+                            </div>
+                            <div class="activitiesCard">
+                                <div class="activitiesCardImage" style="background-image: url(/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)"></div>
+                                    <div class="activitiesCardTitle">Hôtel Le Soleil Du Matin</div>
+                                </div>
+                            </div>
+                            <div class="activitiesCard">
+                                <div class="activitiesCardImage" style="background-image: url(/assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)"></div>
+                                    <div class="activitiesCardTitle">Hôtel Le Soleil Du Matin</div>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        
         </div>
     </div>
 </section>
 
 <footer>
-
     <div class="footer">
         <div class="footerSection">
             <div class="footerTitle">About</div>
@@ -277,10 +298,8 @@
             <div class="footerLink"><a href="#">Centre d'aide</a></div>
             <div class="footerLink"><a href="#">Nous contacter</a></div>
         </div>
-
     </div>
 </footer>
 
 </body>
-
 </html>

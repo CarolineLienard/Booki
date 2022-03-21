@@ -13,21 +13,25 @@ p {
 
 a {
     text-decoration: none;
-    color: inherit;
     font-weight: 300;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    margin: 0;
 }
 
 /** Header **/
-.menuSection {
+
+.headerSection {
     display: flex;
     justify-content: space-between;
     height: 110px;
-    align-items: center;
-}
-
-.menuContainer {
-    display: flex;
-    height: 100%;
     align-items: center;
 }
 
@@ -40,49 +44,60 @@ a {
     margin-left: 12px;
 }
 
-.menuTitleActivities {
+#navBar {
     height: 100%;
-    width: 100px;
+}
+
+.navContainer {
     display: flex;
     align-items: center;
-    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navTitle {
+    list-style-type: none;
+    margin: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
     border-top: 4px solid transparent;
 }
 
-.menuTitleHost {
+.navLinks {
     height: 100%;
-    width: 170px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-top: 4px solid transparent;
-    margin-right: 20px;
+    padding: 0px 17px 0px 17px;
 }
 
-
-.menuTitleHost:hover {
-    color: #0065FC;
+.navTitle:hover {
     border-top: 4px solid #0065FC;
 }
 
-.menuTitleActivities:hover {
+.navLinks:hover {
     color: #0065FC;
-    border-top: 4px solid #0065FC;
 }
 
-.searchTitle {
+
+/** Search bar **/
+
+#searchTitle {
     font-weight: 600;
     font-size: 22px;
     margin-top: 18px;
 }
 
-.searchSubTitle {
+#searchSubTitle {
     font-size: 16px;
     font-weight: 300;
     margin-top: 7px;
 }
 
-.searchBar {
+#searchForm {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -161,13 +176,13 @@ a {
     cursor: pointer;
 }
 
-.filterContainer:active {
+.filterContainer:hover {
     background-color: #0065FC;
     border: 2px solid #0065FC;
     color: white;
   }
 
-.roundIcon {
+#roundIcon {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -179,10 +194,6 @@ a {
     position: absolute;
     top: -3px;
     left: -3px;
-
-}
-
-#filter-icon {
     color: #0065FC;
 }
 
@@ -195,14 +206,15 @@ a {
     font-size: 18px;
 }
 
-.infoContainer {
-    margin-top: 20px;
-    margin-bottom: 25px;
+.infoTitle {
+    font-size: 16px;
+    font-weight: 300;
     display: flex;
     align-items: center;
+    margin: 17px 0px 17px 0px;
 }
 
-.infoIcon {
+#infoIcon {
     border: 1px solid #dbdbdb;
     width: 22px;
     height: 22px;
@@ -211,17 +223,8 @@ a {
     justify-content: center;
     align-items: center;
     margin: 10px;
-}
-
-.infoTitle {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-#i-icon {
     color: #0065FC;
 }
-
 
 /** Section **/
 
@@ -289,10 +292,14 @@ a {
 }
 
 .hostShowMore {
-    font-size: 18px;
-    font-weight: 600;
     margin: 28px;
     cursor: pointer;
+}
+
+
+#hostShowMoreButton {
+    font-size: 18px;
+    font-weight: 600;
 }
 
   .popularHost {
@@ -373,9 +380,32 @@ a {
       display: none;
   }
 
+.activitiesCard {
+    background-color: white;
+    margin: 15px 15px 15px 15px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    width: 20%;
+    box-shadow: 3px 3px 14px #d8d8d8;
+}
+
+.activitiesCardImage {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.activitiesCardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 10px 15px 15px;
+}
+
   .footer {
     background-color: #F2F2F2;
-    height: 200px;
+    height: 100%;
     width: 100%;
     margin: 30px 0px 0px 0px;
     display: flex;
@@ -464,51 +494,43 @@ a {
 /** Mobile responsive **/
 @media screen and (max-width: 768px) {
     
+
+/** Header **/ 
     header, section {
         margin: 5% 5% 5% 5%;
     }
 
-    .menuSection {
+    .headerSection {
         display: flex;
         flex-direction: column;
     }
 
-    .menuContainer {
+    #navBar {
         width: 100%;
     }
 
-    .menuTitleHost {
+    .navTitle {
         margin: 0;
         width: 50%;
         height: 80%;
         border-bottom: 3px solid #F2F2F2;
         border-top: none;
+        justify-content: center;
     }
 
-    .menuTitleActivities {
-        margin: 0;
-        width: 50%;
-        height: 80%;
-        border-bottom: 3px solid #F2F2F2;
-        border-top: none;
-    } 
-
-    .menuTitleHost:hover {
+    .navTitle:hover {
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
         border-top: none;
     }
     
-    .menuTitleActivities:hover {
-        color: #0065FC;
-        border-bottom: 3px solid #0065FC;
-        border-top: none;
-    }
 
     .logoContainer {
         margin-bottom: 30px;
     }
 
+
+/** Search Section **/    
     .titleContainer {
         margin: 30px 0px 30px 0px;
         text-align: left;
