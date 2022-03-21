@@ -1,7 +1,8 @@
 # Booki ☀️✈
 # An OpenClassroom Project to learn HTML and CSS
 
-This is a solution to the first project of the web developer course on OpenClassroom (https://openclassrooms.com/fr/). This project introduce the basics of HTLM and CSS.
+This is a solution to the first project of the web developer course on OpenClassroom (https://openclassrooms.com/fr/). 
+This project introduce the basics of HTLM and CSS.
 
 ## Overview
 
@@ -49,8 +50,9 @@ Next project will be focus on more advanced CSS, such as SASS.
 
 ### Useful resources
 
-- Flexbox Froggy (https://flexboxfroggy.com/#fr) - A perfect game to be more familiar with flexbox
-- HTML de zéro (https://www.youtube.com/watch?v=qsbkZ7gIKnc&t=0s&ab_channel=FromScratch-D%C3%A9veloppementWeb) - An amazing french tutorial for HTML and CSS, really complete.
+- Flexbox Froggy (https://flexboxfroggy.com/#fr) 🐸♥️ - A perfect game to be more familiar with flexbox
+- HTML de zéro (https://www.youtube.com/watch?v=qsbkZ7gIKnc&t=0s&ab_channel=FromScratch-D%C3%A9veloppementWeb)
+  An amazing french tutorial for HTML and CSS, really complete.
 
 
 ## Author
@@ -58,4 +60,4 @@ Next project will be focus on more advanced CSS, such as SASS.
 - Caroline Lienard (https://github.com/CarolineLienard)
 - OpenClassroom - (https://openclassrooms.com/fr/)
 
-#### Note: As a student, do your best to create your own solution, you got this ! 👍🏻
+#### Note: As a student, do your best to create your own solution, you got this 👍🏻
