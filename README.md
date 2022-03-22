@@ -1,5 +1,5 @@
 # Booki ☀️✈
-# An OpenClassroom Project to learn HTML and CSS
+# A Project to learn HTML and CSS
 
 This is my solution to the first project of the OpenClassroom's web developer course (https://openclassrooms.com/fr/). 
 This project introduce the basics of HTLM and CSS through the integration of a very specific design they provide.
