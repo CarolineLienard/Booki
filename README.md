@@ -1,4 +1,4 @@
-# Booki ☀️✈
+# Booki 🧳
 # A Project to learn HTML and CSS
 
 This is my solution to the first project of the OpenClassroom's web developer course (https://openclassrooms.com/fr/). 
