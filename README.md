@@ -56,4 +56,4 @@ This was my very first project. I learned how to use HTML and CSS but also how t
 - Caroline Lienard (https://github.com/CarolineLienard)
 - OpenClassroom - (https://openclassrooms.com/fr/)
 
-#### Note: As a student, do your best to create your own solution, you got this 👍🏻
+#### Note: If you are student, do your best to create your own solution, you got this 👍🏻
