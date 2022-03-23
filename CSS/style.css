@@ -182,12 +182,12 @@ button {
     color: white;
   }
 
-#roundIcon {
+.roundIcon {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     background-color: #DEEBFF;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
     z-index: 1;
@@ -522,10 +522,6 @@ button {
     }
 }
 
-/** Ipad responsive **/
-@media screen and (max-width: 992px) {
-
-}
 
 /** Mobile responsive **/
 @media screen and (max-width: 768px) {
@@ -533,7 +529,7 @@ button {
 
 /** Header **/ 
     header, section {
-        margin: 5% 5% 5% 5%;
+        margin: 5% 0% 5% 0%;
     }
 
     .headerSection {
@@ -567,6 +563,11 @@ button {
 
 
 /** Search Section **/    
+
+    #searchBar {
+        margin: 5% 5% 5% 5%;
+    }
+
     .titleContainer {
         margin: 30px 0px 30px 0px;
         text-align: left;
@@ -621,13 +622,17 @@ button {
     .infoIcon {
         margin: 0px 10px 0px 0px;
     }
-    .hostMarseilleCard {
-        width: 80%;
+    
+
+    /** Card section **/
+    .popularHost {
+        margin: 0;
+        border-radius: 0;
     }
 
     .popularCard {
         width: 80%;
-        margin: 7px 15px 7px 15px;
+        margin: 15px 15px 15px 15px;
     }
 
     #lastCardResponsive {
@@ -637,7 +642,11 @@ button {
     .popularTitleSection {
         margin-left: 24px;
         margin-bottom: 24px;
+    }
 
+    .marseilleHost {
+        background-color: transparent;
+        margin: 0;
     }
 
     .marseilleHostTitle {
@@ -646,7 +655,8 @@ button {
     }
 
     .hostMarseilleCard {
-        margin: 7px 15px 7px 15px;
+        margin: 15px 15px 15px 15px;
+        width: 80%;
     }
 
     .footer {
