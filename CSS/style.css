@@ -1,4 +1,5 @@
-/** Général **/
+                                                /** Général **/
+
 * {
     font-family: "Raleway";
 }
@@ -26,7 +27,7 @@ button {
     margin: 0;
 }
 
-/** Header **/
+                                                    /** Header **/
 
 .headerSection {
     display: flex;
@@ -83,7 +84,7 @@ button {
 }
 
 
-/** Search bar **/
+                                                    /** Search bar **/
 
 #searchTitle {
     font-weight: 600;
@@ -162,7 +163,6 @@ button {
     margin-left: 9px;
 }
 
-
 .filterContainer {
     display: flex;
     align-items: center;
@@ -224,7 +224,7 @@ button {
     color: #0065FC;
 }
 
-/** Section **/
+                                                        /** host Section **/
 
 .hostSection {
     display: flex;
@@ -303,7 +303,8 @@ button {
     background: none;
 }
 
-/** Popular Section **/
+                                            /** Popular Section **/
+
   .popularHost {
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -384,7 +385,7 @@ button {
   }
 
 
-  /** Activities section **/
+                                            /** Activities section **/
 
 .activitesSection {
     margin-top : 60px;
@@ -393,7 +394,7 @@ button {
 .mainActivitesTitle {
     font-size: 22px;
     font-weight: 600;
-    margin: 25px 18px 10px 20px;
+    margin: 25px 18px 18px 20px;
 }
 
 .marseilleActivitesContainer {
@@ -402,6 +403,7 @@ button {
 }
 
 .activitiesCard {
+    display: block;
     background-color: white;
     margin: 15px 15px 15px 15px;
     padding: 0px 0px 5px 0px;
@@ -414,7 +416,7 @@ button {
     display: flex;
     flex-direction: column;
     font-weight: 600;
-    height: 35px;
+    height: 25px;
     justify-content: center;
 }
 
@@ -460,7 +462,8 @@ button {
 #dameIMG {
     height: 100px;
 }
-/** Footer **/
+
+                                                        /** Footer **/
 
   .footer {
     background-color: #F2F2F2;
@@ -490,9 +493,7 @@ button {
 
   }
 
-
-
-  /** Responsive
+                                                    /** Responsive **/
 
   /** Responsive ipad **/
 
@@ -674,8 +675,15 @@ button {
         cursor: pointer;
     }
 
-    .infoIcon {
-        margin: 0px 10px 0px 0px;
+    .infoTitle {
+        align-items: baseline;
+        margin-bottom: 28px;
+    }
+
+    #infoIcon {
+        width: 26px;
+        height: 20px;
+        margin: 8px;
     }
     
 
@@ -714,8 +722,22 @@ button {
         width: 80%;
     }
 
+    /** activities section **/
+    .activitesSection {
+        margin-top: 20px;
+    }
+
+    .mainActivitesTitle {
+        margin-left: 45px;
+        margin-bottom: 26px;
+    }
+
     .activitiesCard {
         margin: 15px 15px 15px 15px;
+    }
+
+    .activitiesCardTitle {
+        height: 20px;
     }
 
     .marseilleActivitesContainer {
@@ -730,7 +752,7 @@ button {
     }
 
     .singleCardImage {
-        height: 150px;
+        height: 130px;
     }
 
     .multipleCard {
@@ -738,10 +760,18 @@ button {
     }
 
     .multipleCardImage {
-        height: 150px !important;
+        height: 130px !important;
     }
 
+    /** footer **/
     .footer {
         flex-direction: column;
+        padding-bottom: 25px;
+    }
+
+    .footerSection {
+        width: 100%;
+        padding: 50px 50px 10px 50px;
+        margin: 0px 0px 0px 0px;
     }
 }
