@@ -414,7 +414,8 @@ button {
     display: flex;
     flex-direction: column;
     font-weight: 600;
-    line-height: 25px;
+    height: 35px;
+    justify-content: center;
 }
 
 .singleCard {
@@ -551,6 +552,30 @@ button {
     }
 }
 
+
+@media screen and (max-width: 992px) {
+    
+    .marseilleActivitesContainer {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .singleCard {
+        width: 50%;
+    }
+
+    .singleCardImage {
+        height: 200px;
+    }
+
+    .multipleCard {
+        width: 50%;
+    }
+
+    .multipleCardImage {
+        height: 200px !important;
+    }
+}
 
 /** Mobile responsive **/
 @media screen and (max-width: 768px) {
