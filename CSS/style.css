@@ -406,6 +406,15 @@ nav {
     box-shadow: 3px 3px 14px #d8d8d8;
 }
 
+.activitiesCardMedium {
+    display: block;
+    background-color: white;
+    margin: 15px 15px 15px 15px;
+    padding: 0px 0px 5px 0px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 14px #d8d8d8;
+}
+
 .activitiesCardTitle {
     margin: 15px 15px 15px 15px;
     display: flex;
@@ -565,15 +574,20 @@ footer {
     }
 
     .singleCard {
-        width: 50%;
+        width: 100%;
     }
 
     .singleCardImage {
         height: 200px;
     }
 
-    .multipleCard {
+    .activitiesCardMedium{
         width: 50%;
+    }
+
+    .multipleCard {
+        width: 100%;
+        flex-direction: row;
     }
 
     .multipleCardImage {
@@ -735,6 +749,10 @@ footer {
     }
 
     .activitiesCard {
+        margin: 15px 15px 15px 15px;
+    }
+
+    .activitiesCardMedium {
         margin: 15px 15px 15px 15px;
     }
 
