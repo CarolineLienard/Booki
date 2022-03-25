@@ -29,27 +29,27 @@ button {
 
                                                     /** Header **/
 
-.headerSection {
+header {
     display: flex;
     justify-content: space-between;
     height: 110px;
     align-items: center;
 }
 
-.logo {
+#logo {
     width: 95px;
 }
 
-.logoContainer {
+#logoContainer {
     height: 20%;
     margin-left: 12px;
 }
 
-#navBar {
+nav {
     height: 100%;
 }
 
-.navContainer {
+#navContainer {
     display: flex;
     align-items: center;
     height: 100%;
@@ -149,14 +149,14 @@ button {
     margin-right: -5px;
 }
 
-.filterSection {
+#filterSection {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.filterTitle {
+#filterTitle {
     font-size: 18px;
     font-weight: 600;
     margin-right: 9px;
@@ -204,7 +204,7 @@ button {
     font-size: 18px;
 }
 
-.infoTitle {
+#infoTitle {
     font-size: 16px;
     font-weight: 300;
     display: flex;
@@ -226,9 +226,8 @@ button {
 
                                                         /** host Section **/
 
-.hostSection {
+#hostLink {
     display: flex;
-    width: 100%;
 }
 
 .marseilleHost {
@@ -239,7 +238,7 @@ button {
     padding: 17px;
   }
 
-  .marseilleHostTitle {
+  #marseilleHostTitle {
     font-size: 22px;
     font-weight: 600;
     margin: 25px 18px 10px 20px;
@@ -287,25 +286,21 @@ button {
     font-weight: 300;
 }
 
-#starIcon {
+.starIcon {
     margin: 0px -3px 0px 0px;
 }
-
-.hostShowMore {
-    margin: 28px;
-    cursor: pointer;
-}
-
 
 #hostShowMoreButton {
     font-size: 18px;
     font-weight: 600;
     background: none;
+    margin: 28px;
+    cursor: pointer;
 }
 
                                             /** Popular Section **/
 
-  .popularHost {
+  #popularHost {
     background-color: #F2F2F2;
     border-radius: 20px;
     width: 45%;
@@ -313,14 +308,14 @@ button {
     padding: 17px;
   }
 
-  .popularTitleSection {
+  #popularTitleSection {
       display: flex;
       justify-content: space-between;
       align-items: center;
       margin: 25px 18px 10px 20px;
   }
 
-  .popularTitle {
+  #popularTitle {
       font-size: 22px;
       font-weight: 600;
   }
@@ -376,7 +371,7 @@ button {
     bottom: 12px;
 }
 
-  #popularStarIcon {
+  .popularStarIcon {
     margin: 0px -3px 0px 0px;
   }
 
@@ -387,17 +382,17 @@ button {
 
                                             /** Activities section **/
 
-.activitesSection {
-    margin-top : 60px;
+#activitesSection {
+    margin-top : 35px;
 }
 
-.mainActivitesTitle {
+#activitiesLink {
     font-size: 22px;
     font-weight: 600;
     margin: 25px 18px 18px 20px;
 }
 
-.marseilleActivitesContainer {
+#marseilleActivitesContainer {
     display: flex;
     justify-content: space-between;
 }
@@ -465,7 +460,7 @@ button {
 
                                                         /** Footer **/
 
-  .footer {
+footer {
     background-color: #F2F2F2;
     height: 100%;
     width: 100%;
@@ -473,14 +468,14 @@ button {
     display: flex;
   }
 
-    .footerSection {
+ .footerSection {
         margin: 70px 50px 50px 50px;
         width: 35%;
         display: flex;
         flex-direction: column;
     }
 
-  .footerTitle {
+.footerTitle {
       font-size: 18px;
       font-weight: 600;
       margin: 0px 0px 12px 0px;
@@ -495,8 +490,7 @@ button {
 
                                                     /** Responsive **/
 
-  /** Responsive ipad **/
-
+  /** Responsive desktop **/
   @media screen and (max-width: 1340px) {
 
     .hostMarseilleCard {
@@ -510,11 +504,11 @@ button {
         margin: 0% 4% 0% 4%;
     }
 
-    .hostSection {
+    #hostLink {
         flex-direction: column-reverse;
     }
     
-    .popularHost {
+    #popularHost {
         padding: 0;
         width: 100%;
         margin-bottom: 30px;
@@ -526,12 +520,12 @@ button {
         background-color: transparent;
     }
 
-    .marseilleHostTitle {
+    #marseilleHostTitle {
         margin: 45px 35px 15px 35px;
         padding: 0px 22px 0px 22px;
     }
 
-    .hostShowMore {
+    #hostShowMoreButton {
         margin: 30px 30px 40px 60px;
     }
 
@@ -544,7 +538,7 @@ button {
         margin: 15px 15px 15px 15px;
     }
 
-    .popularTitleSection {
+    #popularTitleSection {
         margin: 45px 35px 15px 35px;
         padding: 0px 22px 0px 22px;
     }
@@ -554,12 +548,20 @@ button {
     }
 }
 
-
+/** Tablet responsive **/
 @media screen and (max-width: 992px) {
     
-    .marseilleActivitesContainer {
+    #marseilleHostTitle {
+        margin: 45px 0px 20px 9px;
+    }
+    
+    #marseilleActivitesContainer {
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+
+    #hostShowmore {
+        margin: 30px 28px 37px 38px;
     }
 
     .singleCard {
@@ -588,12 +590,12 @@ button {
         margin: 5% 0% 5% 0%;
     }
 
-    .headerSection {
+    header {
         display: flex;
         flex-direction: column;
     }
 
-    #navBar {
+    nav {
         width: 100%;
     }
 
@@ -613,7 +615,7 @@ button {
     }
     
 
-    .logoContainer {
+    #logoContainer {
         margin-bottom: 30px;
     }
 
@@ -624,17 +626,17 @@ button {
         margin: 5% 5% 5% 5%;
     }
 
-    .titleContainer {
+    #titleContainer {
         margin: 30px 0px 30px 0px;
         text-align: left;
         flex-wrap: wrap;
     }
 
-    .filterSection {
+    #filterSection {
         margin: 0px 25px 25px 0px;
     }
 
-    .filterTitle {
+    #filterTitle {
         width: 100%;
         margin: 8px 5px 12px 5px;
     }
@@ -675,20 +677,20 @@ button {
         cursor: pointer;
     }
 
-    .infoTitle {
+    #infoTitle {
         align-items: baseline;
         margin-bottom: 28px;
     }
 
     #infoIcon {
-        width: 26px;
+        width: 21px;
         height: 20px;
         margin: 8px;
     }
     
 
     /** Card section **/
-    .popularHost {
+    #popularHost {
         margin: 0;
         border-radius: 0;
     }
@@ -702,7 +704,7 @@ button {
         display: none;
     }
 
-    .popularTitleSection {
+    #popularTitleSection {
         margin-left: 24px;
         margin-bottom: 24px;
     }
@@ -712,7 +714,7 @@ button {
         margin: 0;
     }
 
-    .marseilleHostTitle {
+    #marseilleHostTitle {
         margin-left: 24px;
         margin-bottom: 24px;
     }
@@ -723,11 +725,11 @@ button {
     }
 
     /** activities section **/
-    .activitesSection {
+    #activitesSection {
         margin-top: 20px;
     }
 
-    .mainActivitesTitle {
+    #activitiesLink {
         margin-left: 45px;
         margin-bottom: 26px;
     }
@@ -740,7 +742,7 @@ button {
         height: 20px;
     }
 
-    .marseilleActivitesContainer {
+    #marseilleActivitesContainer {
         flex-wrap: wrap;
         justify-content: center;
         flex-direction: column;
@@ -764,13 +766,13 @@ button {
     }
 
     /** footer **/
-    .footer {
+    footer {
         flex-direction: column;
         padding-bottom: 25px;
     }
 
     .footerSection {
-        width: 100%;
+        width: 50%;
         padding: 50px 50px 10px 50px;
         margin: 0px 0px 0px 0px;
     }
