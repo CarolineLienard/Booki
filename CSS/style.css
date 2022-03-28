@@ -812,7 +812,7 @@ footer {
     }
 
     #infoIcon {
-        width: 21px;
+        width: 28px;
         height: 20px;
         margin: 8px;
     }
@@ -826,6 +826,7 @@ footer {
 
     .popularCard {
         width: 80%;
+        height: 130px;
         margin: 15px 15px 15px 15px;
     }
     
@@ -857,8 +858,12 @@ footer {
         width: 80%;
     }
 
+    .marseilleCardImage {
+        height: 125px;
+    }
+
     #hostShowMoreButton {
-        margin: 30px 30px 40px 30px;
+        margin: 30px 30px 40px 35px;
     }
 
                                                 /** activities section **/
