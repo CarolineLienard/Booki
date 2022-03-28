@@ -27,6 +27,14 @@ button {
     margin: 0;
 }
 
+input {
+    border-radius: 0;
+  }
+  
+  input[type="search"] {
+    -webkit-appearance: none;
+  }
+
                                                     /** Header **/
 
 header {
