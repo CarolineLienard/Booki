@@ -119,6 +119,7 @@ nav {
     width: 250px;
     height: 51px;
     padding-left: 15px;
+    background-color: white;
 }
 
 #searchInput::placeholder {
@@ -863,11 +864,11 @@ footer {
 
     .hostMarseilleCard {
         margin: 15px 15px 15px 15px;
-        width: 80%;
+        width: 78%;
     }
 
     .marseilleCardImage {
-        height: 125px;
+        height: 120px;
     }
 
     #hostShowMoreButton {
@@ -936,8 +937,8 @@ footer {
     }
 
     .footerSection {
-        width: 70%;
-        padding: 23px 20px 10px 20px;
+        width: 72%;
+        padding: 23px 17px 10px 17px;
         margin: 0px 0px 0px 0px;
     }
 }
