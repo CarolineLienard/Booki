@@ -377,10 +377,9 @@ nav {
     bottom: 12px;
 }
 
-  #lastCardResponsive {
-      display: none;
-  }
-
+#lastCardResponsive {
+    display: none;
+}
 
                                             /** Activities section **/
 
@@ -509,6 +508,10 @@ footer {
     .hostMarseilleCard {
         width: 27%;
     }
+
+    #lastCardResponsive {
+        display: inherit;
+    }
   }
 
   @media screen and (max-width: 1240px) {
@@ -547,7 +550,7 @@ footer {
     }
 
     .popularCard {
-        width: 41%;
+        width: 45%;
         margin: 15px 15px 15px 15px;
     }
 
@@ -565,20 +568,41 @@ footer {
 @media screen and (max-width: 992px) {
     
     #marseilleHostTitle {
-        margin: 45px 0px 20px 9px;
+        margin: 25px 0px 20px 9px;
     }
     
     #marseilleActivitesContainer {
         flex-wrap: wrap;
-        justify-content: flex-start;
+        justify-content: center;
     }
 
-    #hostShowmore {
-        margin: 30px 28px 37px 38px;
+    .hostMarseilleCard {
+        width: 43%;
+    }
+
+    #hostShowMoreButton {
+        margin: 30px 30px 40px 45px;
+    }    
+
+    .popularCard {
+        width: 75%;
+        margin: 15px 15px 15px 15px;
+    }
+
+    #lastCardResponsive {
+        display: none;
+    }
+
+    #activitesSection {
+        margin-top: 15px;
+    }
+
+    #activitiesLink {
+        margin: 30px 20px 20px 45px;
     }
 
     .singleCard {
-        width: 100%;
+        width: 95%;
     }
 
     .singleCardImage {
@@ -590,12 +614,22 @@ footer {
     }
 
     .multipleCard {
-        width: 100%;
+        width: 95%;
         flex-direction: row;
     }
 
     .multipleCardImage {
         height: 200px !important;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .footerSection {
+        margin: 40px 50px 0px 42px;
     }
 }
 
@@ -729,17 +763,21 @@ footer {
 
     .marseilleHost {
         background-color: transparent;
-        margin: 0;
+        margin: 25px 0px 0px 0px;
     }
 
     #marseilleHostTitle {
-        margin-left: 24px;
+        margin-left: 20px;
         margin-bottom: 24px;
     }
 
     .hostMarseilleCard {
         margin: 15px 15px 15px 15px;
         width: 80%;
+    }
+
+    #hostShowMoreButton {
+        margin: 30px 30px 40px 60px;
     }
 
     /** activities section **/
@@ -752,18 +790,6 @@ footer {
         margin-bottom: 26px;
     }
 
-    .activitiesCard {
-        margin: 15px 15px 15px 15px;
-    }
-
-    .activitiesCardMedium {
-        margin: 15px 15px 15px 15px;
-    }
-
-    .activitiesCardTitle {
-        height: 20px;
-    }
-
     #marseilleActivitesContainer {
         flex-wrap: wrap;
         justify-content: center;
@@ -771,8 +797,26 @@ footer {
         align-items: center;
     }
 
+    .activitiesCard {
+        margin: 15px 15px 15px 15px;
+        width: 90%;
+    }
+
+    .activitiesCardMedium {
+        margin: 15px 15px 15px 15px;
+        width: 90%;
+    }
+
+    .activitiesCardTitle {
+        height: 20px;
+    }
+
+
     .singleCard {
         width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .singleCardImage {
@@ -781,6 +825,9 @@ footer {
 
     .multipleCard {
         width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .multipleCardImage {
@@ -791,11 +838,12 @@ footer {
     footer {
         flex-direction: column;
         padding-bottom: 25px;
+        padding-top: 40px;
     }
 
     .footerSection {
-        width: 50%;
-        padding: 50px 50px 10px 50px;
+        width: 54%;
+        padding: 23px 50px 10px 50px;
         margin: 0px 0px 0px 0px;
     }
 }
