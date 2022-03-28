@@ -308,6 +308,7 @@ nav {
     background: none;
     margin: 28px;
     cursor: pointer;
+    color: black;
 }
 
                                             /** Popular Section **/
@@ -857,7 +858,7 @@ footer {
     }
 
     #hostShowMoreButton {
-        margin: 30px 30px 40px 50px;
+        margin: 30px 30px 40px 30px;
     }
 
                                                 /** activities section **/
