@@ -2,8 +2,7 @@
 # A Project to learn HTML and CSS
 
 This is my solution to the first project of the OpenClassroom's web developer course (https://openclassrooms.com/fr/). 
-This project introduce the basics of HTLM and CSS through the integration of a very specific design they provide.
-
+This project introduce the basics of HTLM and CSS through a prototype creation with a very specific design they provide.
 ## Overview
 
 ### The challenge
@@ -19,8 +18,9 @@ You need to :
 - Use 992px as a breakpoint for desktop and 768px for the mobile one.
 - Create desktop first, then tablet and mobile at the end.
 - Choose the best resolution for your image
-- Use flexbox, grid is forbidden
-- Use HTML and CSS only, frameworks, bootstrap... are forbidden.
+- Use flexbox
+- Use HTML and CSS only
+- Create your own responsive design
 - Check compatibility on every browser
 
 ### Screenshot
