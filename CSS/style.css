@@ -241,7 +241,7 @@ nav {
   #marseilleHostTitle {
     font-size: 22px;
     font-weight: 600;
-    margin: 25px 18px 10px 20px;
+    margin: 25px 18px 17px 20px;
 }
 
 .marseilleCardContainer {
@@ -278,6 +278,9 @@ nav {
 .marseilleCardTitle {
     font-weight: 600;
     margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .marseilleCardPrice {
@@ -341,7 +344,7 @@ nav {
     padding: 5px 5px 5px 5px;
     border-radius: 20px;
     width: 90%;
-    height: 135px;
+    height: 130px;
     box-shadow: 3px 3px 14px #d8d8d8;
   }
 
@@ -354,16 +357,18 @@ nav {
   }
 
  .popularCardTitleSection {
-    padding: 5%;
+    margin: 17px 15px 5px 15px;
     position: relative;
-    width: 200px;
     display: flex;
     flex-direction: column;
+    width: 50%;
   }
 
   .popularCardTitle {
     font-weight: 600;
-    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .popularCardPrice {
@@ -509,9 +514,6 @@ footer {
         width: 27%;
     }
 
-    #lastCardResponsive {
-        display: inherit;
-    }
   }
 
   @media screen and (max-width: 1240px) {
@@ -525,24 +527,34 @@ footer {
     }
     
     #popularHost {
-        padding: 0;
+        padding: 0px 0px 20px 0px;
         width: 100%;
         margin-bottom: 30px;
     }
 
     .marseilleHost {
         padding: 0;
+        margin: 0;
         width: 100%;
         background-color: transparent;
     }
 
     #marseilleHostTitle {
-        margin: 45px 35px 15px 35px;
-        padding: 0px 22px 0px 22px;
+        margin: 45px 35px 20px 15px;
+        padding: 0;
+    }
+
+    .marseilleCardContainer {
+        justify-content: space-between;
+    }
+
+    .hostMarseilleCard {
+        width: 29%;
+        margin: 15px 10px 28px 10px;
     }
 
     #hostShowMoreButton {
-        margin: 30px 30px 40px 60px;
+        margin: 30px 30px 40px 25px;
     }
 
     .popularContainer {
@@ -550,18 +562,23 @@ footer {
     }
 
     .popularCard {
-        width: 45%;
+        width: 44%;
         margin: 15px 15px 15px 15px;
     }
 
     #popularTitleSection {
-        margin: 45px 35px 15px 35px;
+        margin: 45px 35px 20px 15px;
         padding: 0px 22px 0px 22px;
     }
 
     #lastCardResponsive {
         display: inherit;
     }
+
+    #activitesSection {
+        margin-top: 37px;
+        margin-bottom: 70px;
+    }    
 }
 
 /** Tablet responsive **/
@@ -587,6 +604,10 @@ footer {
     .popularCard {
         width: 75%;
         margin: 15px 15px 15px 15px;
+    }
+
+    .popularCardTitleSection {
+        width: auto;
     }
 
     #lastCardResponsive {
@@ -741,7 +762,7 @@ footer {
     }
     
 
-    /** Card section **/
+                                                    /** Card section **/
     #popularHost {
         margin: 0;
         border-radius: 0;
@@ -750,6 +771,10 @@ footer {
     .popularCard {
         width: 80%;
         margin: 15px 15px 15px 15px;
+    }
+    
+    .popularCardTitleSection {
+        width: auto;
     }
 
     #lastCardResponsive {
@@ -834,7 +859,7 @@ footer {
         height: 130px !important;
     }
 
-    /** footer **/
+                                                    /** footer **/
     footer {
         flex-direction: column;
         padding-bottom: 25px;
