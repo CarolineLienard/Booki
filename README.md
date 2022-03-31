@@ -30,7 +30,7 @@ You need to :
 
 ### Links
 
-- Solution URL: (https://carolinelienard.github.io/booki/)
+- Solution URL: (https://carolinelienard.github.io/Booki/)
 
 ## My process
 
